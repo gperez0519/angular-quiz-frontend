@@ -20,7 +20,7 @@ export class QuestionsComponent {
         })
     }
 
-    post(question: any) {
+    post(question) {
         this.api.postQuestion(question)
     }
 }

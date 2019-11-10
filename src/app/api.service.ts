@@ -10,7 +10,6 @@ export class ApiService {
 
     constructor(private http: HttpClient) {}
 
-    // GET THE LIST OF QUIZ QUESTIONS FROM THE BACK END API
     getQuestions(){
         return this.http.get('http://localhost:58550/api/questions');
     }
