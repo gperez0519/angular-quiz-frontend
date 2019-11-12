@@ -1,4 +1,4 @@
-<mat-card>
+<mat-card class="questionCard">
     <mat-card-content>
         <mat-list *ngFor="let question of questions">
             <mat-list-item class="clickLink" (click)="api.selectQuestion(question)"> {{ question.text }}</mat-list-item>

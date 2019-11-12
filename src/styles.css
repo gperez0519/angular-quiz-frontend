@@ -8,3 +8,7 @@
 .clickLink {
     cursor: pointer;
 }
+
+.questionCard {
+    margin-top: 10px;
+}
